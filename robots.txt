@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://madhutoursandtravels.in/sitemap.xml
