@@ -1,31 +1,31 @@
 /* ===================================================================
    MADHU'S TOURS & TRAVELS — Design System
-   Theme: Godavari river journeys — teal river, marigold/temple gold,
-   warm paper background, forest green. Ticket/boarding-pass motif
-   throughout, since the business is literally about ticket booking.
+   Theme: navy & gold, matched to the brand emblem — a coastal/road/
+   flight mark rendered in deep navy and warm gold. Ticket/boarding
+   pass motif throughout, since the business is about ticket booking.
 =================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Work+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
 
 :root{
-  /* ---- Color tokens ---- */
-  --ink:        #12262A;
-  --ink-soft:   #3C5257;
-  --river-deep: #0E4C56;
-  --river-mid:  #147A82;
-  --river-glow: #7FD4CC;
-  --gold:       #E7A63C;
-  --gold-deep:  #C9821F;
-  --leaf:       #3F6B4A;
-  --leaf-light: #E4EEE2;
-  --paper:      #FBF8F2;
-  --paper-dim:  #F2ECDF;
+  /* ---- Color tokens (navy & gold, from the brand mark) ---- */
+  --ink:        #10192E;
+  --ink-soft:   #4A5670;
+  --river-deep: #16233F;   /* deep navy — primary */
+  --river-mid:  #2C4570;   /* steel navy — secondary / hover */
+  --river-glow: #9BB3DC;   /* light steel blue — accents on dark */
+  --gold:       #D4AF37;   /* brand gold — primary accent */
+  --gold-deep:  #A8841F;
+  --leaf:       #3C5A82;   /* steel navy, used for check-icons etc. */
+  --leaf-light: #EBEFF6;   /* pale navy-tinted backgrounds */
+  --paper:      #FAF8F3;
+  --paper-dim:  #F1ECE0;
   --white:      #FFFFFF;
-  --line:       rgba(18,38,42,.12);
-  --line-soft:  rgba(18,38,42,.08);
-  --shadow-sm:  0 2px 10px rgba(14,76,86,.08);
-  --shadow-md:  0 12px 32px rgba(14,76,86,.14);
-  --shadow-lg:  0 24px 60px rgba(14,76,86,.20);
+  --line:       rgba(16,25,46,.12);
+  --line-soft:  rgba(16,25,46,.08);
+  --shadow-sm:  0 2px 10px rgba(16,25,46,.10);
+  --shadow-md:  0 12px 32px rgba(16,25,46,.16);
+  --shadow-lg:  0 24px 60px rgba(16,25,46,.22);
 
   /* ---- Type ---- */
   --font-display: 'Fraunces', Georgia, serif;
@@ -42,7 +42,7 @@
 
 /* ===================== RESET / BASE ===================== */
 *,*::before,*::after{ box-sizing:border-box; }
-html{ scroll-behavior:smooth; scroll-padding-top: calc(var(--header-h) + 16px); }
+html{ scroll-behavior:smooth; scroll-padding-top: calc(var(--header-h) + 16px); overflow-x:hidden; width:100%; }
 body{
   margin:0;
   font-family: var(--font-body);
@@ -50,6 +50,8 @@ body{
   background: var(--paper);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  width:100%;
+  position:relative;
 }
 img{ max-width:100%; display:block; }
 a{ color: inherit; text-decoration:none; }
@@ -104,16 +106,21 @@ button{ font-family:inherit; }
   position: sticky; top:0; z-index:1000;
   height: var(--header-h);
   display:flex; align-items:center;
-  background: rgba(251,248,242,.88);
-  backdrop-filter: blur(10px);
+  background: rgba(251,248,242,.97);
   border-bottom: 1px solid var(--line-soft);
   transition: box-shadow .25s ease, background .25s ease;
+  /* NOTE: intentionally no backdrop-filter/transform/perspective here.
+     Those properties create a CSS containing block for any
+     position:fixed descendant, which would trap the mobile nav
+     drawer and its backdrop inside this 84px header box instead of
+     the viewport. The mobile nav + backdrop are also kept OUTSIDE
+     this element in the markup as a second safeguard. */
 }
 #site-header.is-scrolled{ box-shadow: var(--shadow-sm); background: rgba(251,248,242,.98); }
 .header-inner{ display:flex; align-items:center; justify-content:space-between; gap:20px; }
 .brand{ display:flex; align-items:center; gap:12px; }
-.brand img{ height:46px; width:auto; }
-.brand-text{ display:flex; flex-direction:column; line-height:1.1; }
+.brand-mark{ height:48px; width:48px; object-fit:cover; border-radius:12px; box-shadow: var(--shadow-sm); }
+.brand-text{ display:flex; flex-direction:column; line-height:1.15; }
 .brand-text strong{ font-family:var(--font-display); font-size:1.18rem; color:var(--ink); }
 .brand-text span{ font-family:var(--font-mono); font-size:.66rem; letter-spacing:.12em; text-transform:uppercase; color:var(--river-mid); }
 
@@ -154,19 +161,33 @@ button{ font-family:inherit; }
 .nav-toggle{ display:none; width:44px; height:44px; border:2px solid var(--line); border-radius:12px; background:var(--white); align-items:center; justify-content:center; font-size:1.3rem; cursor:pointer; }
 
 @media (max-width: 1140px){
-  .main-nav{ position:fixed; inset:0 0 0 auto; width:min(340px,86vw); height:100vh; background:var(--white);
-    flex-direction:column; align-items:stretch; padding: 100px 22px 24px; transform: translateX(100%);
-    transition: transform .32s ease; box-shadow: var(--shadow-lg); overflow-y:auto; z-index:1001; }
-  body.nav-open .main-nav{ transform: translateX(0); }
+  /* Closed state: fully off-screen AND non-interactive AND invisible.
+     Three independent guards (transform + visibility + pointer-events)
+     so the drawer can never be seen or tapped by accident — only the
+     hamburger button toggling body.nav-open can reveal it. */
+  .main-nav{ position:fixed; top:0; right:0; bottom:0; width:min(340px,86vw); height:100vh; background:var(--white);
+    flex-direction:column; align-items:stretch; padding: 100px 20px 24px; transform: translateX(100%);
+    visibility:hidden; pointer-events:none;
+    transition: transform .32s ease, visibility .32s; box-shadow: var(--shadow-lg); overflow-y:auto; z-index:1001; }
+  body.nav-open .main-nav{ transform: translateX(0); visibility:visible; pointer-events:auto; }
   .main-nav > ul{ flex-direction:column; align-items:stretch; gap:4px; }
   .main-nav a{ padding:14px 14px; width:100%; }
+
   .has-dropdown .dropdown-panel{ position:static; opacity:1; visibility:visible; transform:none; box-shadow:none;
-    border:none; display:none; margin-left:12px; min-width:0; padding:4px 0; }
-  .has-dropdown.open .dropdown-panel{ display:block; }
+    border:none; display:none; margin:6px 0 8px; min-width:0; padding:6px; background: var(--leaf-light); border-radius:14px; }
+  .has-dropdown.open .dropdown-panel{ display:flex; flex-direction:column; gap:2px; }
   .has-dropdown.open > a .bi{ transform: rotate(180deg); }
+  .dropdown-panel a{ padding:12px 12px; background: var(--white); border-radius:10px; }
+  .dropdown-panel small{ margin-top:2px; line-height:1.35; }
+
   .nav-toggle{ display:flex; }
-  .nav-backdrop{ position:fixed; inset:0; background: rgba(18,38,42,.5); opacity:0; visibility:hidden; transition:opacity .3s ease; z-index:1000; }
-  body.nav-open .nav-backdrop{ opacity:1; visibility:visible; }
+
+  /* Dimmed backdrop behind the open drawer — also fixed, also outside
+     the sticky header, also guarded by visibility + pointer-events. */
+  .nav-backdrop{ position:fixed; top:0; right:0; bottom:0; left:0; background: rgba(16,25,46,.55);
+    opacity:0; visibility:hidden; pointer-events:none; transition:opacity .3s ease, visibility .3s; z-index:1000; }
+  body.nav-open .nav-backdrop{ opacity:1; visibility:visible; pointer-events:auto; }
+
   .header-call span{ display:none; }
 }
 @media (max-width:420px){ .brand-text{ display:none; } }
@@ -389,26 +410,29 @@ table.rate-table td.price{ font-family:var(--font-mono); color:var(--river-deep)
 .page-hero p{ color: rgba(255,255,255,.82); max-width:600px; font-size:1.05rem; }
 
 /* ===================== FOOTER ===================== */
-#site-footer{ background: var(--ink); color: rgba(255,255,255,.75); padding-top:80px; position:relative; }
-.footer-top{ display:grid; grid-template-columns: 1.3fr 1fr 1fr 1.1fr; gap:40px; padding-bottom:50px; border-bottom:1px solid rgba(255,255,255,.1); }
-@media (max-width:991px){ .footer-top{ grid-template-columns: 1fr 1fr; } }
+#site-footer{ background: var(--river-deep); color: rgba(255,255,255,.72); padding-top:56px; position:relative; border-top:3px solid var(--gold); }
+.footer-top{ display:grid; grid-template-columns: 1.2fr 1fr 1fr 1.1fr; gap:32px; padding-bottom:36px; border-bottom:1px solid rgba(255,255,255,.12); }
+@media (max-width:991px){ .footer-top{ grid-template-columns: 1fr 1fr; row-gap:32px; } }
 @media (max-width:560px){ .footer-top{ grid-template-columns: 1fr; } }
-.footer-brand{ display:flex; align-items:center; gap:10px; margin-bottom:16px; }
-.footer-brand img{ height:40px; filter: brightness(0) invert(1); }
-.footer-brand strong{ font-family:var(--font-display); color:#fff; font-size:1.15rem; }
-#site-footer h5{ color:#fff; font-family:var(--font-mono); font-size:.75rem; letter-spacing:.1em; text-transform:uppercase; margin-bottom:18px; }
-#site-footer .flinks li{ margin-bottom:11px; }
-#site-footer .flinks a{ font-size:.9rem; color: rgba(255,255,255,.68); transition:color .2s ease; }
+.footer-brand{ display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+.footer-brand img{ height:44px; width:44px; object-fit:cover; border-radius:10px; flex-shrink:0; }
+.footer-brand .brand-text{ display:flex; flex-direction:column; line-height:1.2; }
+.footer-brand strong{ font-family:var(--font-display); color:#fff; font-size:1.08rem; }
+.footer-brand .brand-text span{ font-family:var(--font-mono); font-size:.62rem; letter-spacing:.08em; text-transform:uppercase; color: var(--gold); }
+#site-footer p{ font-size:.86rem; line-height:1.6; }
+#site-footer h5{ color:#fff; font-family:var(--font-mono); font-size:.7rem; letter-spacing:.1em; text-transform:uppercase; margin-bottom:14px; opacity:.85; }
+#site-footer .flinks li{ margin-bottom:9px; }
+#site-footer .flinks a{ font-size:.87rem; color: rgba(255,255,255,.65); transition:color .2s ease; }
 #site-footer .flinks a:hover{ color: var(--gold); }
-.footer-social{ display:flex; gap:10px; margin-top:20px; }
-.footer-social a{ width:38px; height:38px; border-radius:50%; border:1px solid rgba(255,255,255,.2); display:flex; align-items:center; justify-content:center; }
+.footer-social{ display:flex; gap:8px; margin-top:16px; }
+.footer-social a{ width:34px; height:34px; border-radius:50%; border:1px solid rgba(255,255,255,.2); display:flex; align-items:center; justify-content:center; font-size:.9rem; }
 .footer-social a:hover{ background: var(--gold); border-color: var(--gold); color: var(--ink); }
-.footer-contact-item{ display:flex; gap:10px; margin-bottom:14px; font-size:.9rem; }
+.footer-contact-item{ display:flex; gap:9px; margin-bottom:11px; font-size:.86rem; }
 .footer-contact-item .bi{ color: var(--gold); margin-top:2px; }
-.footer-bottom{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; padding:24px 0; font-size:.82rem; color: rgba(255,255,255,.55); }
-.footer-bottom a{ color: rgba(255,255,255,.55); }
+.footer-bottom{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; padding:18px 0; font-size:.78rem; color: rgba(255,255,255,.5); }
+.footer-bottom a{ color: rgba(255,255,255,.5); }
 .footer-bottom a:hover{ color:#fff; }
-.footer-legal{ display:flex; gap:18px; flex-wrap:wrap; }
+.footer-legal{ display:flex; gap:16px; flex-wrap:wrap; }
 
 /* ===================== FLOATING ACTION BUTTONS ===================== */
 .fab-stack{ position:fixed; right:20px; bottom:20px; z-index:900; display:flex; flex-direction:column; gap:12px; align-items:flex-end; }

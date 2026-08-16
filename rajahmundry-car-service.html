@@ -32,7 +32,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/css/site.css?v=1" rel="stylesheet">
-
+  <meta name="keywords" content="best car rental in Rajahmundry, taxi service Rajahmundry, cab booking Rajahmundry, Innova rental Rajahmundry, outstation taxi Andhra Pradesh, tempo traveller rental">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -121,42 +121,47 @@
 <header id="site-header">
   <div class="container header-inner">
     <a href="index.html" class="brand">
-      <img src="assets/img/logo.png" alt="Madhu's Tours &amp; Travels logo">
+      <img src="assets/img/logo-icon.png" alt="Madhu's Tours and Travels emblem" class="brand-mark">
       <span class="brand-text">
         <strong>Madhu's Tours &amp; Travels</strong>
-        <span>Rajahmundry &middot; Since 2019</span>
+        <span>Journeys Beyond Destinations</span>
       </span>
     </a>
-
-    <div class="nav-backdrop"></div>
-    <nav class="main-nav" aria-label="Primary">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li class="has-dropdown">
-          <a href="services.html">Services <i class="bi bi-chevron-down"></i></a>
-          <div class="dropdown-panel">
-            <a href="rajahmundry-car-service.html"><i class="bi bi-car-front"></i><span>Car &amp; Cab Rentals<small>Local &amp; outstation taxis</small></span></a>
-            <a href="bus-ticket-booking.html"><i class="bi bi-bus-front"></i><span>Bus Ticket Booking<small>All routes, luxury &amp; sleeper</small></span></a>
-            <a href="train-ticket-booking.html"><i class="bi bi-train-front"></i><span>Train Ticket Booking<small>IRCTC &amp; Tatkal assistance</small></span></a>
-            <a href="flight-ticket-booking.html"><i class="bi bi-airplane"></i><span>Flight Ticket Booking<small>Domestic &amp; international</small></span></a>
-            <a href="papikondalu-tourism.html"><i class="bi bi-water"></i><span>Papikondalu Tourism<small>Godavari river cruise tours</small></span></a>
-            <a href="devotinal-yatra-package.html"><i class="bi bi-flower1"></i><span>Devotional Yatra Packages<small>Bhadrachalam, Annavaram &amp; more</small></span></a>
-          </div>
-        </li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
 
     <div class="header-actions">
       <a href="tel:+917207902958" class="header-call"><i class="bi bi-telephone-fill"></i><span>+91 72079 02958</span></a>
       <a href="https://wa.me/917207902958?text=Hi%20Madhu's%20Tours%20%26%20Travels%2C%20I'd%20like%20to%20know%20more%20about%20your%20packages."
          class="header-whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
-      <button class="nav-toggle" aria-label="Toggle menu"><i class="bi bi-list"></i></button>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav"><i class="bi bi-list"></i></button>
     </div>
   </div>
 </header>
+
+<!-- Mobile nav drawer + backdrop live OUTSIDE #site-header on purpose:
+     #site-header is position:sticky, and any filter/transform/perspective
+     on a sticky ancestor can trap position:fixed descendants inside its
+     own box instead of the viewport. Keeping these as siblings of
+     <header> guarantees they always position relative to the viewport. -->
+<div class="nav-backdrop" data-nav-backdrop></div>
+<nav class="main-nav" id="primary-nav" aria-label="Primary">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="has-dropdown">
+      <a href="services.html">Services <i class="bi bi-chevron-down"></i></a>
+      <div class="dropdown-panel">
+        <a href="rajahmundry-car-service.html"><i class="bi bi-car-front"></i><span>Car &amp; Cab Rentals<small>Local &amp; outstation taxis</small></span></a>
+        <a href="bus-ticket-booking.html"><i class="bi bi-bus-front"></i><span>Bus Ticket Booking<small>All routes, luxury &amp; sleeper</small></span></a>
+        <a href="train-ticket-booking.html"><i class="bi bi-train-front"></i><span>Train Ticket Booking<small>IRCTC &amp; Tatkal assistance</small></span></a>
+        <a href="flight-ticket-booking.html"><i class="bi bi-airplane"></i><span>Flight Ticket Booking<small>Domestic &amp; international</small></span></a>
+        <a href="papikondalu-tourism.html"><i class="bi bi-water"></i><span>Papikondalu Tourism<small>Godavari river cruise tours</small></span></a>
+        <a href="devotinal-yatra-package.html"><i class="bi bi-flower1"></i><span>Devotional Yatra Packages<small>Bhadrachalam, Annavaram &amp; more</small></span></a>
+      </div>
+    </li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
 <main>
 <section class="page-hero">
@@ -256,11 +261,11 @@
     <div class="footer-top">
       <div>
         <div class="footer-brand">
-          <img src="assets/img/logo.png" alt="Madhu's Tours &amp; Travels">
-          <strong>Madhu's Tours &amp; Travels</strong>
+          <img src="assets/img/logo-icon.png" alt="Madhu's Tours &amp; Travels emblem">
+          <span class="brand-text"><strong>Madhu's Tours &amp; Travels</strong><span>Journeys Beyond Destinations</span></span>
         </div>
-        <p style="color:rgba(255,255,255,.65); font-size:.9rem; max-width:320px;">
-          Your one-stop travel partner in Rajahmundry for car rentals, bus, train &amp; flight tickets, Papikondalu river cruises and devotional yatra packages — trusted by families since 2018.
+        <p style="max-width:300px;">
+          Car rentals, bus/train/flight tickets, Papikondalu river cruises and devotional yatra packages — planned by one trusted local team since 2019.
         </p>
         <div class="footer-social">
           <a href="https://wa.me/917207902958" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
