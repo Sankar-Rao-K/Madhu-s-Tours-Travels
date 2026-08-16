@@ -42,7 +42,7 @@
 
 /* ===================== RESET / BASE ===================== */
 *,*::before,*::after{ box-sizing:border-box; }
-html{ scroll-behavior:smooth; scroll-padding-top: calc(var(--header-h) + 16px); overflow-x:hidden; width:100%; }
+html{ scroll-behavior:smooth; scroll-padding-top: calc(var(--header-h) + 16px); }
 body{
   margin:0;
   font-family: var(--font-body);
@@ -50,8 +50,6 @@ body{
   background: var(--paper);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-  width:100%;
-  position:relative;
 }
 img{ max-width:100%; display:block; }
 a{ color: inherit; text-decoration:none; }
@@ -106,33 +104,33 @@ button{ font-family:inherit; }
   position: sticky; top:0; z-index:1000;
   height: var(--header-h);
   display:flex; align-items:center;
-  background: rgba(251,248,242,.97);
-  border-bottom: 1px solid var(--line-soft);
-  transition: box-shadow .25s ease, background .25s ease;
+  background: var(--river-deep);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  transition: box-shadow .25s ease;
   /* NOTE: intentionally no backdrop-filter/transform/perspective here.
      Those properties create a CSS containing block for any
      position:fixed descendant, which would trap the mobile nav
-     drawer and its backdrop inside this 84px header box instead of
-     the viewport. The mobile nav + backdrop are also kept OUTSIDE
-     this element in the markup as a second safeguard. */
+     drawer/backdrop inside this 84px header box instead of the
+     viewport, breaking the mobile menu. */
 }
-#site-header.is-scrolled{ box-shadow: var(--shadow-sm); background: rgba(251,248,242,.98); }
-.header-inner{ display:flex; align-items:center; justify-content:space-between; gap:20px; }
-.brand{ display:flex; align-items:center; gap:12px; }
-.brand-mark{ height:48px; width:48px; object-fit:cover; border-radius:12px; box-shadow: var(--shadow-sm); }
+#site-header.is-scrolled{ box-shadow: var(--shadow-md); }
+.header-inner{ display:flex; align-items:center; gap:28px; }
+.brand{ display:flex; align-items:center; gap:12px; flex-shrink:0; }
+.brand-mark{ height:50px; width:50px; object-fit:cover; border-radius:12px; border:2px solid var(--gold); }
 .brand-text{ display:flex; flex-direction:column; line-height:1.15; }
-.brand-text strong{ font-family:var(--font-display); font-size:1.18rem; color:var(--ink); }
-.brand-text span{ font-family:var(--font-mono); font-size:.66rem; letter-spacing:.12em; text-transform:uppercase; color:var(--river-mid); }
+.brand-text strong{ font-family:var(--font-display); font-size:1.14rem; color:#fff; }
+.brand-text span{ font-family:var(--font-mono); font-size:.62rem; letter-spacing:.12em; text-transform:uppercase; color:var(--gold); }
 
 .main-nav{ display:flex; align-items:center; gap:2px; }
 .main-nav > ul{ display:flex; align-items:center; gap:2px; }
 .main-nav a{
   display:flex; align-items:center; gap:6px;
-  padding:10px 16px; font-weight:600; font-size:.95rem; color: var(--ink-soft);
+  padding:10px 16px; font-weight:600; font-size:.94rem; color: rgba(255,255,255,.78);
   border-radius: 100px; transition: color .2s ease, background .2s ease;
-  position:relative;
+  position:relative; white-space:nowrap;
 }
-.main-nav > ul > li > a:hover, .main-nav > ul > li.active > a{ color: var(--river-deep); background: var(--leaf-light); }
+.main-nav > ul > li > a:hover, .main-nav > ul > li.active > a{ color: #fff; background: rgba(255,255,255,.12); }
+.main-nav > ul > li.active > a{ color: var(--gold); background: rgba(212,175,55,.14); }
 .has-dropdown{ position:relative; }
 .has-dropdown > a .bi{ font-size:.7rem; transition: transform .2s ease; }
 .has-dropdown:hover > a .bi{ transform: rotate(180deg); }
@@ -143,22 +141,32 @@ button{ font-family:inherit; }
   transition: opacity .18s ease, transform .18s ease; border:1px solid var(--line-soft);
 }
 .has-dropdown:hover .dropdown-panel{ opacity:1; visibility:visible; transform: translateX(-50%) translateY(0); }
-.dropdown-panel a{ display:flex; align-items:flex-start; gap:12px; padding:10px 12px; border-radius:10px; }
-.dropdown-panel a:hover{ background: var(--leaf-light); }
+.dropdown-panel a{ display:flex; align-items:flex-start; gap:12px; padding:10px 12px; border-radius:10px; color: var(--ink); }
+.dropdown-panel a:hover{ background: var(--leaf-light); color:var(--ink); }
 .dropdown-panel .bi{ font-size:1.1rem; color:var(--gold-deep); margin-top:2px; }
 .dropdown-panel small{ display:block; color: var(--ink-soft); font-weight:400; font-size:.78rem; }
 
-.header-actions{ display:flex; align-items:center; gap:10px; }
-.header-call{ display:flex; align-items:center; gap:8px; font-weight:700; font-size:.92rem; padding:9px 14px; border-radius:100px; border:2px solid var(--line); }
-.header-call .bi{ color: var(--river-deep); }
+.header-actions{ display:flex; align-items:center; gap:10px; margin-left:auto; flex-shrink:0; }
+.header-call{ display:flex; align-items:center; gap:8px; font-weight:700; font-size:.9rem; padding:9px 14px; border-radius:100px; border:1.5px solid rgba(255,255,255,.28); color:#fff; }
+.header-call .bi{ color: var(--gold); }
+.header-call:hover{ background: rgba(255,255,255,.1); }
 .header-whatsapp{
   display:flex; align-items:center; justify-content:center;
   width:44px; height:44px; border-radius:50%; background:#25D366; color:#fff; font-size:1.25rem;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 0 0 0 rgba(37,211,102,.6);
+  animation: wa-pulse 2.2s infinite;
 }
 .header-whatsapp:hover{ transform: scale(1.08); }
 
-.nav-toggle{ display:none; width:44px; height:44px; border:2px solid var(--line); border-radius:12px; background:var(--white); align-items:center; justify-content:center; font-size:1.3rem; cursor:pointer; }
+/* Gentle blinking green pulse ring, so the WhatsApp buttons draw the eye
+   without being obnoxious (2.2s cycle, brief flash then long rest). */
+@keyframes wa-pulse{
+  0%   { box-shadow: 0 0 0 0 rgba(37,211,102,.55); }
+  70%  { box-shadow: 0 0 0 12px rgba(37,211,102,0); }
+  100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
+}
+
+.nav-toggle{ display:none; width:44px; height:44px; border:1.5px solid rgba(255,255,255,.28); border-radius:12px; background:rgba(255,255,255,.08); color:#fff; align-items:center; justify-content:center; font-size:1.3rem; cursor:pointer; }
 
 @media (max-width: 1140px){
   /* Closed state: fully off-screen AND non-interactive AND invisible.
@@ -171,24 +179,29 @@ button{ font-family:inherit; }
     transition: transform .32s ease, visibility .32s; box-shadow: var(--shadow-lg); overflow-y:auto; z-index:1001; }
   body.nav-open .main-nav{ transform: translateX(0); visibility:visible; pointer-events:auto; }
   .main-nav > ul{ flex-direction:column; align-items:stretch; gap:4px; }
-  .main-nav a{ padding:14px 14px; width:100%; }
+  .main-nav a{ padding:14px 14px; width:100%; color: var(--ink-soft); }
+  .main-nav > ul > li > a:hover, .main-nav > ul > li.active > a{ color: var(--river-deep); background: var(--leaf-light); }
+  .main-nav > ul > li.active > a{ color: var(--gold-deep); background: var(--leaf-light); }
 
   .has-dropdown .dropdown-panel{ position:static; opacity:1; visibility:visible; transform:none; box-shadow:none;
     border:none; display:none; margin:6px 0 8px; min-width:0; padding:6px; background: var(--leaf-light); border-radius:14px; }
   .has-dropdown.open .dropdown-panel{ display:flex; flex-direction:column; gap:2px; }
   .has-dropdown.open > a .bi{ transform: rotate(180deg); }
-  .dropdown-panel a{ padding:12px 12px; background: var(--white); border-radius:10px; }
-  .dropdown-panel small{ margin-top:2px; line-height:1.35; }
+  .dropdown-panel a{ padding:12px 12px; background: var(--white); border-radius:10px; align-items:center; }
+  .dropdown-panel small{ display:none; } /* subtitle text dropped on mobile: single clear line per service, no wrap/clip risk */
 
   .nav-toggle{ display:flex; }
 
-  /* Dimmed backdrop behind the open drawer — also fixed, also outside
-     the sticky header, also guarded by visibility + pointer-events. */
-  .nav-backdrop{ position:fixed; top:0; right:0; bottom:0; left:0; background: rgba(16,25,46,.55);
+  /* Dimmed backdrop behind the open drawer. Uses solid black rather than
+     a navy tint — a navy-tinted overlay over an already-navy hero was
+     nearly invisible, which made the drawer look "half open" with no
+     separation from the page behind it. */
+  .nav-backdrop{ position:fixed; top:0; right:0; bottom:0; left:0; background: rgba(0,0,0,.68);
     opacity:0; visibility:hidden; pointer-events:none; transition:opacity .3s ease, visibility .3s; z-index:1000; }
   body.nav-open .nav-backdrop{ opacity:1; visibility:visible; pointer-events:auto; }
 
   .header-call span{ display:none; }
+  .header-inner{ gap:12px; }
 }
 @media (max-width:420px){ .brand-text{ display:none; } }
 
@@ -330,17 +343,37 @@ table.rate-table td.price{ font-family:var(--font-mono); color:var(--river-deep)
 .why-card p{ font-size:.88rem; margin:0; }
 
 /* ===================== GALLERY ===================== */
-.gallery-grid{ display:grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows:150px; gap:14px; }
-.gallery-grid a{ position:relative; border-radius:14px; overflow:hidden; display:block; }
-.gallery-grid a img{ width:100%; height:100%; object-fit:cover; transition: transform .4s ease; }
-.gallery-grid a:hover img{ transform: scale(1.08); }
-.gallery-grid a::after{ content:""; position:absolute; inset:0; background: linear-gradient(0deg, rgba(14,76,86,.55), transparent 55%); opacity:0; transition:opacity .25s ease; }
+/* Presented as raised "tiles" (not flat flush images) with a resting
+   shadow + rounded corners, a stronger lift/zoom/glow on hover, and a
+   centered expand icon — reads as clickable on desktop, not just a
+   plain photo strip. */
+.gallery-grid{ display:grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows:160px; gap:18px; }
+.gallery-grid a{
+  position:relative; border-radius:18px; overflow:hidden; display:block;
+  box-shadow: var(--shadow-sm); border:1px solid var(--line-soft);
+  transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+  cursor: zoom-in;
+}
+.gallery-grid a:hover{ transform: translateY(-7px) scale(1.015); box-shadow: var(--shadow-lg); border-color: var(--gold); z-index:2; }
+.gallery-grid a img{ width:100%; height:100%; object-fit:cover; transition: transform .5s ease; }
+.gallery-grid a:hover img{ transform: scale(1.12); }
+.gallery-grid a::after{ content:"";
+  position:absolute; inset:0;
+  background: linear-gradient(0deg, rgba(16,25,46,.75) 0%, rgba(16,25,46,.15) 45%, transparent 65%);
+  opacity:0; transition:opacity .3s ease; }
 .gallery-grid a:hover::after{ opacity:1; }
-.gallery-grid a .g-cap{ position:absolute; left:12px; bottom:10px; color:#fff; font-weight:700; font-size:.82rem; opacity:0; transform: translateY(6px); transition:all .25s ease; }
+.gallery-grid a .g-cap{ position:absolute; left:14px; bottom:12px; right:14px; color:#fff; font-weight:700; font-size:.86rem; opacity:0; transform: translateY(8px); transition:all .3s ease; z-index:1; }
 .gallery-grid a:hover .g-cap{ opacity:1; transform:none; }
+.gallery-grid a .g-zoom{
+  position:absolute; top:14px; right:14px; width:34px; height:34px; border-radius:50%;
+  background: rgba(255,255,255,.16); border:1.5px solid rgba(255,255,255,.5); backdrop-filter: blur(2px);
+  display:flex; align-items:center; justify-content:center; color:#fff; font-size:.95rem;
+  opacity:0; transform: scale(.7) rotate(-15deg); transition: all .3s ease .05s;
+}
+.gallery-grid a:hover .g-zoom{ opacity:1; transform:none; }
 .gallery-grid .tall{ grid-row: span 2; }
 .gallery-grid .wide{ grid-column: span 2; }
-@media (max-width:768px){ .gallery-grid{ grid-template-columns: repeat(2,1fr); grid-auto-rows:130px; } .gallery-grid .wide{ grid-column:span 2; } }
+@media (max-width:768px){ .gallery-grid{ grid-template-columns: repeat(2,1fr); grid-auto-rows:130px; gap:12px; } .gallery-grid .wide{ grid-column:span 2; } }
 
 /* ===================== TESTIMONIALS ===================== */
 .testi-track{ display:grid; grid-template-columns: repeat(3,1fr); gap:24px; }
@@ -437,7 +470,7 @@ table.rate-table td.price{ font-family:var(--font-mono); color:var(--river-deep)
 /* ===================== FLOATING ACTION BUTTONS ===================== */
 .fab-stack{ position:fixed; right:20px; bottom:20px; z-index:900; display:flex; flex-direction:column; gap:12px; align-items:flex-end; }
 .fab{ width:54px; height:54px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.4rem; box-shadow: var(--shadow-md); transition: transform .2s ease, opacity .2s ease; }
-.fab-whatsapp{ background:#25D366; color:#fff; }
+.fab-whatsapp{ background:#25D366; color:#fff; animation: wa-pulse 2.2s infinite; }
 .fab-call{ background: var(--river-deep); color:#fff; }
 .fab-top{ background:#fff; color: var(--river-deep); border:1.5px solid var(--line); opacity:0; visibility:hidden; transform: translateY(8px); }
 .fab-top.show{ opacity:1; visibility:visible; transform:none; }
