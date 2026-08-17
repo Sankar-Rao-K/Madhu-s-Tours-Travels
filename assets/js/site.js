@@ -59,10 +59,12 @@
 
   /* Highlight current page in nav based on filename */
   function activeNavHighlight() {
-    const path = location.pathname.split("/").pop() || "index.html";
+    const currentFile = location.pathname.split("/").pop() || "index.html";
     document.querySelectorAll(".main-nav a[href]").forEach((a) => {
       const href = a.getAttribute("href");
-      if (href === path || (path === "" && href === "index.html")) {
+      if (!href || href.startsWith("#") || href.startsWith("http")) return;
+      const hrefFile = href.split("/").pop().split("?")[0].split("#")[0];
+      if (hrefFile === currentFile || (currentFile === "" && hrefFile === "index.html")) {
         a.closest("li").classList.add("active");
       }
     });

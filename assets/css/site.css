@@ -310,6 +310,23 @@ button{ font-family:inherit; }
 .pkg-price .amt small{ font-family:var(--font-mono); font-size:.62rem; color:var(--ink-soft); display:block; font-weight:400; }
 .pkg-price .child{ font-family:var(--font-mono); font-size:.72rem; color: var(--ink-soft); text-align:right; }
 
+/* Two-card package grid (used for yatra packages with fewer than 3 cards) */
+.pkg-grid-2{ display:grid; grid-template-columns: repeat(2,1fr); gap:26px; max-width:820px; margin:0 auto; }
+@media (max-width:768px){ .pkg-grid-2{ grid-template-columns:1fr; max-width:480px; } }
+.pkg-note{ display:flex; gap:8px; align-items:flex-start; font-size:.82rem; color:var(--ink-soft); background:var(--leaf-light); border-radius:10px; padding:10px 12px; margin-top:14px; }
+.pkg-note .bi{ color:var(--gold-deep); margin-top:2px; flex-shrink:0; }
+
+/* Itinerary stop list — numbered chips in a responsive grid, used to lay out
+   long lists of pilgrimage/tour stops (e.g. 12–21 places) compactly. */
+.stop-list{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin:0; padding:0; list-style:none; }
+@media (max-width:768px){ .stop-list{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:480px){ .stop-list{ grid-template-columns:1fr; } }
+.stop-list li{ display:flex; align-items:flex-start; gap:10px; background:var(--white); border:1px solid var(--line-soft); border-radius:10px; padding:9px 12px; font-size:.88rem; color:var(--ink-soft); }
+.stop-list .stop-num{ flex-shrink:0; width:22px; height:22px; border-radius:50%; background:var(--river-deep); color:#fff; font-family:var(--font-mono); font-size:.66rem; display:flex; align-items:center; justify-content:center; font-weight:700; }
+.itinerary-card{ background:var(--paper-dim); border-radius:var(--radius-md); padding:26px 26px 22px; margin-bottom:22px; }
+.itinerary-card h3{ font-size:1.15rem; margin:0 0 4px; }
+.itinerary-card .it-meta{ font-family:var(--font-mono); font-size:.72rem; text-transform:uppercase; letter-spacing:.07em; color:var(--river-mid); margin-bottom:16px; display:block; }
+
 /* ===================== FLEET / RATE TABLE ===================== */
 .rate-table-wrap{ overflow-x:auto; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border:1px solid var(--line-soft); }
 table.rate-table{ width:100%; border-collapse:collapse; background:#fff; min-width:640px; }
