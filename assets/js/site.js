@@ -34,8 +34,18 @@
   function mobileNav() {
     const btn = document.querySelector(".nav-toggle");
     const backdrop = document.querySelector(".nav-backdrop");
-    const close = () => document.body.classList.remove("nav-open");
-    if (btn) btn.addEventListener("click", () => document.body.classList.toggle("nav-open"));
+    const close = () => {
+      document.body.classList.remove("nav-open");
+      if (btn) {
+        btn.setAttribute("aria-expanded", "false");
+        btn.setAttribute("aria-label", "Open menu");
+      }
+    };
+    if (btn) btn.addEventListener("click", () => {
+      const isOpen = document.body.classList.toggle("nav-open");
+      btn.setAttribute("aria-expanded", String(isOpen));
+      btn.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+    });
     if (backdrop) backdrop.addEventListener("click", close);
     document.querySelectorAll(".main-nav a:not(.has-dropdown > a)").forEach((a) => {
       a.addEventListener("click", close);
