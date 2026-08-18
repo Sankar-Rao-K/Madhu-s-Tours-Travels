@@ -190,13 +190,18 @@ button{ font-family:inherit; }
   .main-nav > ul > li.active > a{ color: var(--gold-deep); background: var(--leaf-light); }
 
   .has-dropdown{ width:100%; min-width:0; }
-  .has-dropdown .dropdown-panel{ position:static; opacity:1; visibility:visible; transform:none; box-shadow:none;
-    border:none; display:none; margin:6px 14px 8px; width:calc(100% - 28px); max-width:calc(100% - 28px); min-width:0;
-    padding:6px; background: var(--leaf-light); border-radius:14px; overflow:hidden; }
+  /* Mobile dropdowns are in normal flow. The desktop hover selector has
+     higher specificity, so explicitly reset it here; otherwise some touch
+     browsers keep :hover and shift the panel left by 50%. */
+  .has-dropdown .dropdown-panel,
+  .has-dropdown:hover .dropdown-panel{ position:static; left:auto; top:auto; opacity:1; visibility:visible; transform:none;
+    box-shadow:none; border:none; display:none; margin:6px 0 8px; width:100%; max-width:100%; min-width:0;
+    padding:6px; background: var(--leaf-light); border-radius:14px; overflow:hidden; box-sizing:border-box; }
   .has-dropdown.open .dropdown-panel{ display:flex; flex-direction:column; gap:2px; }
   .has-dropdown.open > a .bi{ transform: rotate(180deg); }
-  .dropdown-panel a{ padding:12px 12px; width:100%; min-width:0; box-sizing:border-box; background: var(--white); border-radius:10px; align-items:center; }
-  .dropdown-panel a span{ min-width:0; overflow-wrap:anywhere; }
+  .dropdown-panel a{ padding:12px 12px; width:100%; min-width:0; box-sizing:border-box; background: var(--white); border-radius:10px; align-items:center; flex:0 0 auto; }
+  .dropdown-panel a > .bi{ flex:0 0 22px; width:22px; text-align:center; }
+  .dropdown-panel a span{ min-width:0; flex:1 1 auto; overflow-wrap:anywhere; white-space:normal; }
   .dropdown-panel small{ display:none; } /* subtitle text dropped on mobile: single clear line per service, no wrap/clip risk */
 
   .nav-toggle{ display:flex; }
