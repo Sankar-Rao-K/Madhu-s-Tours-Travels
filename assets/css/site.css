@@ -555,3 +555,20 @@ table.rate-table td.price{ font-family:var(--font-mono); color:var(--river-deep)
 /* 404 */
 .error-wrap{ text-align:center; padding: 100px 0; }
 .error-wrap .big{ font-family:var(--font-display); font-size: clamp(4rem,14vw,8rem); color: var(--river-deep); line-height:1; margin-bottom:10px; }
+
+/* ===================== IMAGE-RICH PACKAGES & RELATED GALLERY ===================== */
+.pkg-image{ height:180px; overflow:hidden; background:var(--paper-dim); }
+.pkg-image img{ width:100%; height:100%; object-fit:cover; display:block; transition:transform .45s ease; }
+.pkg-card:hover .pkg-image img{ transform:scale(1.04); }
+.svc-photo{ height:170px; margin:-24px -24px 20px; overflow:hidden; background:var(--paper-dim); }
+.svc-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+.pkg-temple-chips,.itinerary-preview{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 18px; }
+.pkg-temple-chips span,.itinerary-preview span{ display:inline-flex; align-items:center; padding:7px 10px; border-radius:999px; background:var(--leaf-light); color:var(--river-deep); border:1px solid var(--line-soft); font-size:.78rem; font-weight:700; }
+.itinerary-more{ margin-top:14px; border-top:1px solid var(--line-soft); padding-top:12px; }
+.itinerary-more summary{ cursor:pointer; color:var(--gold-deep); font-weight:800; list-style:none; display:flex; align-items:center; gap:8px; }
+.itinerary-more summary::-webkit-details-marker{ display:none; }
+.itinerary-more summary::before{ content:'+'; width:22px; height:22px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; background:var(--leaf-light); }
+.itinerary-more[open] summary::before{ content:'–'; }
+.itinerary-more .stop-list{ margin-top:14px; }
+.related-gallery-section{ background:var(--paper-dim); }
+@media (max-width:768px){ .pkg-image{ height:155px; } .svc-photo{ height:150px; margin:-22px -22px 18px; } .pkg-temple-chips span,.itinerary-preview span{ font-size:.72rem; } }
