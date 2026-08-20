@@ -1,0 +1,542 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 19 Aug 2026 17:37:26 at https://srijyothijewellersvizag.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0c1T120J1R1H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://srijyothijewellersvizag.com/ -O1 "D:\per" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/product/earrings-12-630-grms/ (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/product/earrings-12-440-grms/ (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/elementor/google-fonts/css/lato.css?ver=1757659207 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/js/typeahead.bundle.min.js (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/js/bootstrap.min.js?ver=20150330 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/js/slick.min.js?ver=1.8.0 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/js/jquery.magnific-popup.min.js?ver=1.1.0 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/js/jquery.unveil.js?ver=1.1.0 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/js/perfect-scrollbar.jquery.min.js?ver=0.6.12 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/js/sliding-menu.min.js?ver=0.3.0 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/js/functions.js?ver=20150330 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.7 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.7 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/libs/print/jQuery.print.js?ver=6.5.9 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/libs/table-head-fixer/table-head-fixer.js?ver=6.5.9 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.3 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=6.5.9 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js?ver=6.0.8 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/js/wc-quantity-increment.js?ver=20150330 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/js/woocommerce.js?ver=20150330 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.0.1 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.0.1 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.2.2 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.2.2 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.2.2 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/core.js?ver=4.0.1 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/nav-menu.js?ver=4.0.1 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/assets/libs/magnific-popup/jquery.magnific-popup.min.js?ver=4.0.1 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/nav-menu.js?ver=4.0.1 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/header-search.js?ver=4.0.1 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/header-offcanvas.js?ver=4.0.1 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/horizontal-scrolling-announcements/script/jquery.marquee.min.js?ver=7.0.4 (from https://srijyothijewellersvizag.com/)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff2 (from https://srijyothijewellersvizag.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=11.0.1)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff (from https://srijyothijewellersvizag.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=11.0.1)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf (from https://srijyothijewellersvizag.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=11.0.1)
+17:47:01	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woocommerce/assets/images/icons/loader.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=11.0.1)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/close.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/curve.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/remove-dark.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/placeholder.png (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/checkbox-dark.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/filter.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/add.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/printer.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/share.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/trash.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/remove.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/images/close-dark.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=6.5.9)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-wishlist/assets/fonts/woosw.eot?vv2087 (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-wishlist/assets/css/icons.css?ver=6.0.8)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-wishlist/assets/fonts/woosw.ttf?vv2087 (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-wishlist/assets/css/icons.css?ver=6.0.8)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-wishlist/assets/fonts/woosw.woff?vv2087 (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-wishlist/assets/css/icons.css?ver=6.0.8)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-wishlist/assets/fonts/woosw.svg?vv2087 (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-wishlist/assets/css/icons.css?ver=6.0.8)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-wishlist/assets/images/curve.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/woo-smart-wishlist/assets/css/frontend.css?ver=6.0.8)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/neckwear.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/rings.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/earrings.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/bangles.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/engagement-rings.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/8.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/07/cat-men-Chksoumm.jpg (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/07/cat-bridal-Cxaui0bd-1.jpg (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-12-2026-05_58_16-PM.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-12-2026-06_14_37-PM.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/jyothi.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-12-2026-06_18_13-PM.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-31-2026-10_54_56-AM-1.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-31-2026-05_35_08-PM.png (from https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-4385.css?ver=1787128796)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/img/arrow.png (from https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/common.css?ver=4.0.1)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/img/sort_asc.png (from https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/common.css?ver=4.0.1)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/img/sort_desc.png (from https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/common.css?ver=4.0.1)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/img/sort_asc_disabled.png (from https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/common.css?ver=4.0.1)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/img/cross-out.svg (from https://srijyothijewellersvizag.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/header-offcanvas.css?ver=4.0.1)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-brands-400.eot (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-brands-400.eot? (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-brands-400.woff2 (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-brands-400.woff (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-brands-400.ttf (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-brands-400.svg (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-regular-400.eot (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-regular-400.eot? (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-regular-400.woff2 (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-regular-400.woff (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-regular-400.ttf (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-regular-400.svg (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-solid-900.eot (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-solid-900.eot? (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-solid-900.woff2 (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-solid-900.woff (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-solid-900.ttf (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/fa-solid-900.svg (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/all-awesome.css?ver=5.11.2)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/themify.eot (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/themify-icons.css?ver=1.0.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/themify.woff (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/themify-icons.css?ver=1.0.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/themify.ttf (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/themify-icons.css?ver=1.0.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/themify.svg (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/themify-icons.css?ver=1.0.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/Flaticon.eot (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/flaticon.css?ver=1.0.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/Flaticon.eot? (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/flaticon.css?ver=1.0.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/Flaticon.woff2 (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/flaticon.css?ver=1.0.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/Flaticon.woff (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/flaticon.css?ver=1.0.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/Flaticon.ttf (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/flaticon.css?ver=1.0.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/Flaticon.svg (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/flaticon.css?ver=1.0.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/Flaticon.svg (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/flaticon.css?ver=1.0.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/bootstrap/glyphicons-halflings-regular.eot (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/bootstrap.css?ver=3.2.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/bootstrap/glyphicons-halflings-regular.eot? (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/bootstrap.css?ver=3.2.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/bootstrap/glyphicons-halflings-regular.woff (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/bootstrap.css?ver=3.2.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/bootstrap/glyphicons-halflings-regular.ttf (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/bootstrap.css?ver=3.2.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/fonts/bootstrap/glyphicons-halflings-regular.svg (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/bootstrap.css?ver=3.2.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/images/loading-quick.gif (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/template.css?ver=1.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/images/error.jpg (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/template.css?ver=1.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/images/plus.png (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/template.css?ver=1.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/images/select.png (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/template.css?ver=1.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/themes/freshen/images/bg-vendor.jpg (from https://srijyothijewellersvizag.com/wp-content/themes/freshen/css/template.css?ver=1.0)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2/feed/ (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-includes/css/dist/block-library/style.min.css?ver=7.0.4 (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/product-category/bangles/ (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/product-category/chokers/ (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/product-category/monalisa-beads-collection/ (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/product-category/temple-designs/ (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/product-category/waist-belts/ (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2?min_price=350&max_price=400 (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2?min_price=400&max_price=450 (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2?min_price=450&max_price=500 (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2?min_price=500&max_price=550 (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2?min_price=550&max_price=600 (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2?min_price=600&max_price=650 (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2?min_price=650&max_price=700 (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2?min_price=700&max_price=750 (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2?min_price=750&max_price=6800 (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2/?display_mode=grid (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:02	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/shop-2/?display_mode=list (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:04	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2e95d72e95d72e95-150x150.png (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:07	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2qtr1o2qtr1o2qtr-150x150.png (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:44	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2yzuh12yzuh12yzu-150x150.png (from https://srijyothijewellersvizag.com/shop-2/)
+17:47:52	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_8hdnh28hdnh28hdn-150x150.png (from https://srijyothijewellersvizag.com/shop-2/)
+17:48:55	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_9ck1op9ck1op9ck1-150x150.png (from https://srijyothijewellersvizag.com/shop-2/)
+17:50:14	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_ap67onap67onap67-150x150.png (from https://srijyothijewellersvizag.com/shop-2/)
+17:50:22	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_fo7py8fo7py8fo7p-150x150.png (from https://srijyothijewellersvizag.com/shop-2/)
+17:51:25	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_gq8pjmgq8pjmgq8p-150x150.png (from https://srijyothijewellersvizag.com/shop-2/)
+17:51:31	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_lnggsolnggsolngg-150x150.png (from https://srijyothijewellersvizag.com/shop-2/)
+17:52:35	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_ltxtjltxtjltxtjl-150x150.png (from https://srijyothijewellersvizag.com/shop-2/)
+17:53:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_tog7pwtog7pwtog7-150x150.png (from https://srijyothijewellersvizag.com/shop-2/)
+17:55:54	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/plugins/woocommerce/assets/client/blocks/product-categories.css?ver=wc-11.0.1 (from https://srijyothijewellersvizag.com/shop-2/)
+17:55:58	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/elementor/css/post-822.css?ver=1787115808 (from https://srijyothijewellersvizag.com/shop-2/)
+18:16:35	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=4388
+18:16:35	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=4388 to https://srijyothijewellersvizag.com/contact/
+18:16:37	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5739
+18:16:37	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5739 to https://srijyothijewellersvizag.com/product/harm-46-820-grms/
+18:16:37	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5736
+18:16:37	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5736 to https://srijyothijewellersvizag.com/product/haram-47-700-grms/
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00277-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-47-700-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-44-820-grms%2F (from https://srijyothijewellersvizag.com/product/haram-44-820-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-44-820-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/haram-44-820-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5732 (from https://srijyothijewellersvizag.com/product/haram-44-820-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5732 (from https://srijyothijewellersvizag.com/product/haram-44-820-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00348-600x900-1.jpg (from https://srijyothijewellersvizag.com/product/haram-44-820-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00353-600x900-1.jpg (from https://srijyothijewellersvizag.com/product/haram-44-820-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00352-600x900-1.jpg (from https://srijyothijewellersvizag.com/product/haram-44-820-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00348-600x900-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-44-820-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00353-600x900-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-44-820-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00352-600x900-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-44-820-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-42-22-grms%2F (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:37	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-42-22-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5728 (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5728 (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00289-1365x2048-1.jpg (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00289-1365x2048-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00289-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00289-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00290-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00290-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00289-1365x2048-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00289-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00290-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-42-22-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-35-780-grms%2F (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-35-780-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5723 (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5723 (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00286-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00286-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00286-1365x2048-1.jpg (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00286-1365x2048-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00287-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00287-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00286-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00286-1365x2048-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00287-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-35-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-32-530-grms%2F (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-32-530-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5719 (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5719 (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00338-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00338-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00339-1-850x850-1.jpg (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00339-1-850x850-1-600x600.jpg (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00339-1-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00339-1-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00338-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00339-1-850x850-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00339-1-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-32-530-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-31-590-grms%2F (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-31-590-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5715 (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5715 (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00291-1-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00291-1-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00293-1-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00293-1-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00292-1-1365x2048-1.jpg (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00292-1-1365x2048-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00291-1-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00293-1-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00292-1-1365x2048-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-31-590-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-30-540-grms%2F (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-30-540-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5711 (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5711 (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00296-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00296-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00297-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00297-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00296-1365x2048-1.jpg (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00296-1365x2048-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00296-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00297-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00296-1365x2048-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-30-540-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-27-710-grms%2F (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fharam-27-710-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5707 (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5707 (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00282-1365x2048-1.jpg (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00282-1365x2048-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00282-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00282-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00283-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00283-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00282-1365x2048-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00282-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00283-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/haram-27-710-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-9-400-grms%2F (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-9-400-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5702 (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5702 (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00523-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00523-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00522-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00522-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00521-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00521-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00523-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00522-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00521-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-400-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-9-360-grms%2F (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-9-360-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5698 (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5698 (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00586-1365x2048-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00586-1365x2048-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00586-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00586-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00588-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00588-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00586-1365x2048-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00586-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00588-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-360-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-9-020-grms%2F (from https://srijyothijewellersvizag.com/product/earrings-9-020-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-9-020-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/earrings-9-020-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5694 (from https://srijyothijewellersvizag.com/product/earrings-9-020-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5694 (from https://srijyothijewellersvizag.com/product/earrings-9-020-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00535-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-020-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00535-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-020-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00536-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-020-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00536-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-020-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00535-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-020-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00536-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-9-020-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-8-120-grms%2F (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-8-120-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5690 (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5690 (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00567-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00567-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00568-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00568-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00566-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00566-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00567-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00568-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00566-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-8-120-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-7-880-grms%2F (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-7-880-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5686 (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5686 (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00593-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00593-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00592-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00592-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00594-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00594-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00593-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00592-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00594-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-880-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-7-780-grms%2F (from https://srijyothijewellersvizag.com/product/earrings-7-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-7-780-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/earrings-7-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5683 (from https://srijyothijewellersvizag.com/product/earrings-7-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5683 (from https://srijyothijewellersvizag.com/product/earrings-7-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00583-600x900-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00583-410x410-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00583-600x900-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00583-410x410-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-780-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-7-700-grms%2F (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-7-700-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5679 (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5679 (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00616-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00616-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00617-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00617-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00618-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00618-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00616-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00617-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00618-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-7-700-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-12-870-grms%2F (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-12-870-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5675 (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5675 (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00510-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00510-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00509-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00509-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00508-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00508-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00510-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00509-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00508-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-870-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-12-800-grms%2F (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fearrings-12-800-grms%2F&format=xml (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5671 (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5671 (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00546-1365x2048-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00546-1365x2048-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00548-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00548-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00546-scaled-1.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00546-scaled-1-600x900.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00546-1365x2048-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00548-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2026/08/DSC00546-scaled-1-160x160.jpg (from https://srijyothijewellersvizag.com/product/earrings-12-800-grms/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fbangles%2F (from https://srijyothijewellersvizag.com/product/bangles/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fbangles%2F&format=xml (from https://srijyothijewellersvizag.com/product/bangles/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5155 (from https://srijyothijewellersvizag.com/product/bangles/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5155 (from https://srijyothijewellersvizag.com/product/bangles/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2e95d72e95d72e95.png (from https://srijyothijewellersvizag.com/product/bangles/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2e95d72e95d72e95-600x600.png (from https://srijyothijewellersvizag.com/product/bangles/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2e95d72e95d72e95-160x160.png (from https://srijyothijewellersvizag.com/product/bangles/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fbangles-2%2F (from https://srijyothijewellersvizag.com/product/bangles-2/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fbangles-2%2F&format=xml (from https://srijyothijewellersvizag.com/product/bangles-2/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5157 (from https://srijyothijewellersvizag.com/product/bangles-2/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5157 (from https://srijyothijewellersvizag.com/product/bangles-2/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2qtr1o2qtr1o2qtr.png (from https://srijyothijewellersvizag.com/product/bangles-2/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2qtr1o2qtr1o2qtr-600x600.png (from https://srijyothijewellersvizag.com/product/bangles-2/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2qtr1o2qtr1o2qtr-160x160.png (from https://srijyothijewellersvizag.com/product/bangles-2/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fbangles-3%2F (from https://srijyothijewellersvizag.com/product/bangles-3/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fbangles-3%2F&format=xml (from https://srijyothijewellersvizag.com/product/bangles-3/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5159 (from https://srijyothijewellersvizag.com/product/bangles-3/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5159 (from https://srijyothijewellersvizag.com/product/bangles-3/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2yzuh12yzuh12yzu.png (from https://srijyothijewellersvizag.com/product/bangles-3/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2yzuh12yzuh12yzu-600x600.png (from https://srijyothijewellersvizag.com/product/bangles-3/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_2yzuh12yzuh12yzu-160x160.png (from https://srijyothijewellersvizag.com/product/bangles-3/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/product/bangles-13/ (from https://srijyothijewellersvizag.com/product/bangles-3/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_vfbe5mvfbe5mvfbe-150x150.png (from https://srijyothijewellersvizag.com/product/bangles-3/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/product/bangles-14/ (from https://srijyothijewellersvizag.com/product/bangles-3/)
+18:16:38	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_vtn8d9vtn8d9vtn8-150x150.png (from https://srijyothijewellersvizag.com/product/bangles-3/)
+18:16:38	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5161
+18:16:38	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5161 to https://srijyothijewellersvizag.com/product/bangles-4/
+18:16:38	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5163
+18:16:38	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5163 to https://srijyothijewellersvizag.com/product/bangles-5/
+18:16:38	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5165
+18:16:38	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5165 to https://srijyothijewellersvizag.com/product/bangles-6/
+18:16:38	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5167
+18:16:38	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5167 to https://srijyothijewellersvizag.com/product/bangles-7/
+18:16:38	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5169
+18:16:38	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5169 to https://srijyothijewellersvizag.com/product/bangles-8/
+18:16:38	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5171
+18:16:38	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5171 to https://srijyothijewellersvizag.com/product/bangles-9/
+18:16:38	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5173
+18:16:38	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5173 to https://srijyothijewellersvizag.com/product/bangles-10/
+18:16:38	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5175
+18:16:38	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5175 to https://srijyothijewellersvizag.com/product/bangles-11/
+18:16:38	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5177
+18:16:38	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5177 to https://srijyothijewellersvizag.com/product/bangles-12/
+18:16:38	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/shop-2/page/1/
+18:16:38	Warning: 	File has moved from https://srijyothijewellersvizag.com/shop-2/page/1/ to https://srijyothijewellersvizag.com/shop-2/
+18:27:39	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/product/premium-gold-plated-diamond-pyach-ruli-bala-11/ (from https://srijyothijewellersvizag.com/shop-2/page/8/)
+18:32:12	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-17-at-18.36.36-5-150x150.jpeg (from https://srijyothijewellersvizag.com/shop-2/page/8/)
+18:33:23	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5139
+18:33:23	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5139 to https://srijyothijewellersvizag.com/product/mangalasutra/
+18:33:23	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5141
+18:33:23	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5141 to https://srijyothijewellersvizag.com/product/mangalasutra-2/
+18:33:23	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5143
+18:33:23	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5143 to https://srijyothijewellersvizag.com/product/mangalasutra-3/
+18:33:23	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5145
+18:33:23	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5145 to https://srijyothijewellersvizag.com/product/mangalasutra-4/
+18:33:23	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5147
+18:33:23	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5147 to https://srijyothijewellersvizag.com/product/mangalasutra-5/
+18:33:23	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5149
+18:33:23	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5149 to https://srijyothijewellersvizag.com/product/mangalasutra-6/
+18:33:23	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5151
+18:33:23	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5151 to https://srijyothijewellersvizag.com/product/mangalasutra-7/
+18:33:23	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5153
+18:33:23	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5153 to https://srijyothijewellersvizag.com/product/mangalasutra-8/
+18:33:23	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5548
+18:33:23	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5548 to https://srijyothijewellersvizag.com/product/mangalasutra-9/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5518
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5518 to https://srijyothijewellersvizag.com/product/chains-22/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5520
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5520 to https://srijyothijewellersvizag.com/product/chains-23/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5522
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5522 to https://srijyothijewellersvizag.com/product/chains-24/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5524
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5524 to https://srijyothijewellersvizag.com/product/chains-25/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5526
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5526 to https://srijyothijewellersvizag.com/product/chains-26/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5528
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5528 to https://srijyothijewellersvizag.com/product/chains-27/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5530
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5530 to https://srijyothijewellersvizag.com/product/chains-28/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5532
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5532 to https://srijyothijewellersvizag.com/product/chains-29/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5534
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5534 to https://srijyothijewellersvizag.com/product/chains-30/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5536
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5536 to https://srijyothijewellersvizag.com/product/chains-31/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5538
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5538 to https://srijyothijewellersvizag.com/product/chains-32/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5540
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5540 to https://srijyothijewellersvizag.com/product/chains-33/
+18:35:26	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/product-category/chains/page/1/
+18:35:26	Warning: 	File has moved from https://srijyothijewellersvizag.com/product-category/chains/page/1/ to https://srijyothijewellersvizag.com/product-category/chains/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5648
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5648 to https://srijyothijewellersvizag.com/product/earrings-10-350-grms/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5652
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5652 to https://srijyothijewellersvizag.com/product/earrings-10-870-grms/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5656
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5656 to https://srijyothijewellersvizag.com/product/earrings-11-050-grms/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5660
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5660 to https://srijyothijewellersvizag.com/product/earrings-12-420-grms/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/product-category/earrings/page/1/
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/product-category/earrings/page/1/ to https://srijyothijewellersvizag.com/product-category/earrings/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5542
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5542 to https://srijyothijewellersvizag.com/product/chains-34/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5544
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5544 to https://srijyothijewellersvizag.com/product/chains-35/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5184
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5184 to https://srijyothijewellersvizag.com/product/chokers/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5187
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5187 to https://srijyothijewellersvizag.com/product/chokers-2/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5189
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5189 to https://srijyothijewellersvizag.com/product/chokers-3/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5191
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5191 to https://srijyothijewellersvizag.com/product/chokers-4/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5193
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5193 to https://srijyothijewellersvizag.com/product/chokers-5/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5195
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5195 to https://srijyothijewellersvizag.com/product/chokers-6/
+18:37:29	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5197
+18:37:29	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5197 to https://srijyothijewellersvizag.com/product/chokers-7/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5199
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5199 to https://srijyothijewellersvizag.com/product/chokers-8/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5201
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5201 to https://srijyothijewellersvizag.com/product/chokers-9/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5203
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5203 to https://srijyothijewellersvizag.com/product/chokers-10/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5205
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5205 to https://srijyothijewellersvizag.com/product/chokers-11/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5207
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5207 to https://srijyothijewellersvizag.com/product/chokers-12/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5209
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5209 to https://srijyothijewellersvizag.com/product/chokers-13/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5211
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5211 to https://srijyothijewellersvizag.com/product/chokers-14/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5122
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5122 to https://srijyothijewellersvizag.com/product/monalisa-beads-collection-2/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5124
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5124 to https://srijyothijewellersvizag.com/product/monalisa-beads-collection-3/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5126
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5126 to https://srijyothijewellersvizag.com/product/monalisa-beads-collection-4/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5128
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5128 to https://srijyothijewellersvizag.com/product/monalisa-beads-collection-5/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5130
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5130 to https://srijyothijewellersvizag.com/product/monalisa-beads-collection-6/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5132
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5132 to https://srijyothijewellersvizag.com/product/monalisa-beads-collection-7/
+18:37:30	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5135 (from https://srijyothijewellersvizag.com/product/monalisa-beads-collection-8/)
+18:37:30	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_n735ayn735ayn735-600x600.png (from https://srijyothijewellersvizag.com/product/monalisa-beads-collection-8/)
+18:37:30	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_n735ayn735ayn735-160x160.png (from https://srijyothijewellersvizag.com/product/monalisa-beads-collection-8/)
+18:37:30	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fmonalisa-beads-collection-9%2F (from https://srijyothijewellersvizag.com/product/monalisa-beads-collection-9/)
+18:37:30	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsrijyothijewellersvizag.com%2Fproduct%2Fmonalisa-beads-collection-9%2F&format=xml (from https://srijyothijewellersvizag.com/product/monalisa-beads-collection-9/)
+18:37:30	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-json/wp/v2/product/5137 (from https://srijyothijewellersvizag.com/product/monalisa-beads-collection-9/)
+18:37:30	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/?p=5137 (from https://srijyothijewellersvizag.com/product/monalisa-beads-collection-9/)
+18:37:30	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_yn6226yn6226yn62.png (from https://srijyothijewellersvizag.com/product/monalisa-beads-collection-9/)
+18:37:30	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_yn6226yn6226yn62-600x600.png (from https://srijyothijewellersvizag.com/product/monalisa-beads-collection-9/)
+18:37:30	Error: 	"Too Many Requests" (429) at link https://srijyothijewellersvizag.com/wp-content/uploads/2025/10/Gemini_Generated_Image_yn6226yn6226yn62-160x160.png (from https://srijyothijewellersvizag.com/product/monalisa-beads-collection-9/)
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5117
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5117 to https://srijyothijewellersvizag.com/product/temple-designs/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=4934
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=4934 to https://srijyothijewellersvizag.com/product/temple-designs-long-harams-3/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=4937
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=4937 to https://srijyothijewellersvizag.com/product/temple-designs-long-harams/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=4939
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=4939 to https://srijyothijewellersvizag.com/product/temple-designs-long-harams-2/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=4942
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=4942 to https://srijyothijewellersvizag.com/product/temple-designs-long-harams-4/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=4944
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=4944 to https://srijyothijewellersvizag.com/product/temple-designs-long-harams-5/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=4946
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=4946 to https://srijyothijewellersvizag.com/product/temple-designs-long-harams-6/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=4948
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=4948 to https://srijyothijewellersvizag.com/product/temple-designs-long-harams-7/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/?p=5214
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/?p=5214 to https://srijyothijewellersvizag.com/product/waist-belts/
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/product-category/chains/page/1/?display_mode=grid
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/product-category/chains/page/1/?display_mode=grid to https://srijyothijewellersvizag.com/product-category/chains/?display_mode=grid
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/product-category/chains/page/1/?display_mode=list
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/product-category/chains/page/1/?display_mode=list to https://srijyothijewellersvizag.com/product-category/chains/?display_mode=list
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/product-category/earrings/page/1/?display_mode=grid
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/product-category/earrings/page/1/?display_mode=grid to https://srijyothijewellersvizag.com/product-category/earrings/?display_mode=grid
+18:37:30	Warning: 	Moved Permanently for https://srijyothijewellersvizag.com/product-category/earrings/page/1/?display_mode=list
+18:37:30	Warning: 	File has moved from https://srijyothijewellersvizag.com/product-category/earrings/page/1/?display_mode=list to https://srijyothijewellersvizag.com/product-category/earrings/?display_mode=list
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 0 minutes 4 seconds : 1290 links scanned, 833 files written (84475228 bytes overall) [67669262 bytes received at 18776 bytes/sec], 21507052 bytes transferred using HTTP compression in 533 files, ratio 18%, 20.9 requests per connection
+(381 errors, 150 warnings, 0 messages)

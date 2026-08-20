@@ -72,7 +72,7 @@
     const currentFile = location.pathname.split("/").pop() || "index.html";
     document.querySelectorAll(".main-nav a[href]").forEach((a) => {
       const href = a.getAttribute("href");
-      if (!href || href.startsWith("#") || href.startsWith("http")) return;
+      if (!href || href.startsWith("#") || href.startsWith("http") || href.includes("#")) return;
       const hrefFile = href.split("/").pop().split("?")[0].split("#")[0];
       if (hrefFile === currentFile || (currentFile === "" && hrefFile === "index.html")) {
         a.closest("li").classList.add("active");
@@ -183,3 +183,17 @@
     });
   }
 })();
+
+  // Two-level Blog menu on mobile: tap a service to reveal its articles.
+  document.querySelectorAll('.blog-service > a').forEach((link) => {
+    link.addEventListener('click', (e) => {
+      if (window.matchMedia('(max-width: 1140px)').matches) {
+        const parent = link.parentElement;
+        const submenu = parent.querySelector('.blog-subpanel');
+        if (submenu) {
+          e.preventDefault();
+          parent.classList.toggle('open');
+        }
+      }
+    });
+  });
