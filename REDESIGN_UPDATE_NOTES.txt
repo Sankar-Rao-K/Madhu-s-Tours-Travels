@@ -1,0 +1,44 @@
+Madhu's Tours & Travels — Blog Redesign Update
+
+Global/common updates
+- Shared header/navbar normalized across all pages.
+- Navbar primary contact: +91 70328 58996.
+- Footer primary contact: +91 70328 58996; secondary: +91 72079 02958.
+- Footer status: Open 24/7 — Call or WhatsApp anytime.
+- About / Services / Gallery navbar links point to the relevant Home sections.
+- Blog dropdown now supports 6 service categories with nested sub-articles.
+- Desktop hover area enlarged with hover bridges; mobile uses explicit chevron controls for submenus.
+- Shared slideshow JS/CSS added for service blog intros.
+- Existing content pages with related galleries use 12-image galleries and View More Photos.
+
+Blog structure
+1. Car & Cab Rentals
+   - Family Outstation Travel from Rajahmundry
+   - Airport & Railway Station Transfers
+2. Bus Ticket Booking
+   - AC Sleeper vs Seater Bus
+   - Planning Group Bus Travel from Rajahmundry
+3. Train Ticket Booking
+   - IRCTC & Tatkal Booking Guide
+   - Rajahmundry Train Journey Planning
+4. Flight Ticket Booking
+   - Domestic Flight Booking Guide
+   - International Flight Booking Checklist
+5. Papikondalu & Maredumilli Tourism
+   - Papikondalu One-Day Cruise Guide
+   - Maredumilli Two-Day Nature Guide
+6. Devotional Yatra Packages
+   - Kashi & Ayodhya Pilgrimage Guide
+   - Tirupati & Arunachalam Yatra Guide
+
+Each service landing page contains:
+- 4-image automatic slideshow on the left side of the intro.
+- Service overview content.
+- 2 article cards.
+- 12-image related gallery.
+- View More Photos button.
+
+Compatibility
+- Desktop, tablet and mobile layouts updated.
+- All local HTML/image/script/link references verified with 0 missing local references.
+- site.js syntax checked with Node.

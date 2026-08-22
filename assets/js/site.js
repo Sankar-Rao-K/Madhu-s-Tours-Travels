@@ -19,6 +19,7 @@
     yearStamp();
     contactForm();
     activeNavHighlight();
+    articleSlideshows();
   }
 
   /* Sticky header shadow on scroll */
@@ -52,32 +53,35 @@
     });
   }
 
-  /* On mobile, tapping a dropdown parent opens the submenu instead of navigating */
+  /* Mobile blog dropdown toggles: main labels remain normal links; chevrons open sub-articles. */
   function dropdownTouchToggle() {
-    if (window.matchMedia("(min-width:1141px)").matches) return;
-    document.querySelectorAll(".has-dropdown > a").forEach((link) => {
-      link.addEventListener("click", function (e) {
-        const parent = this.parentElement;
-        if (!parent.classList.contains("open")) {
-          e.preventDefault();
-          document.querySelectorAll(".has-dropdown.open").forEach((el) => { if (el !== parent) el.classList.remove("open"); });
-          parent.classList.add("open");
-        }
+    document.querySelectorAll(".nav-subtoggle").forEach((btn) => {
+      btn.addEventListener("click", function () {
+        const item = this.closest(".nav-submenu-item");
+        if (!item) return;
+        const willOpen = !item.classList.contains("open");
+        const parent = this.closest(".blog-nav-item");
+        if (parent) parent.classList.add("open");
+        item.parentElement.querySelectorAll(":scope > .nav-submenu-item.open").forEach((el) => { if (el !== item) el.classList.remove("open"); });
+        item.classList.toggle("open", willOpen);
+        this.setAttribute("aria-expanded", String(willOpen));
       });
     });
   }
 
-  /* Highlight current page in nav based on filename */
+  /* Highlight current page and keep Blog active throughout the blog tree. */
   function activeNavHighlight() {
-    const currentFile = location.pathname.split("/").pop() || "index.html";
+    const path = location.pathname;
+    const currentFile = path.split("/").pop() || "index.html";
     document.querySelectorAll(".main-nav a[href]").forEach((a) => {
       const href = a.getAttribute("href");
-      if (!href || href.startsWith("#") || href.startsWith("http") || href.includes("#")) return;
+      if (!href || href.startsWith("#") || href.startsWith("http")) return;
       const hrefFile = href.split("/").pop().split("?")[0].split("#")[0];
-      if (hrefFile === currentFile || (currentFile === "" && hrefFile === "index.html")) {
-        a.closest("li").classList.add("active");
-      }
+      if (hrefFile === currentFile) a.closest("li")?.classList.add("active");
     });
+    if (currentFile === "blog.html" || path.includes("/blog/")) {
+      document.querySelector(".blog-nav-item")?.classList.add("active");
+    }
   }
 
   /* Simple fade/slide reveal using IntersectionObserver */
@@ -182,18 +186,39 @@
       });
     });
   }
-})();
 
-  // Two-level Blog menu on mobile: tap a service to reveal its articles.
-  document.querySelectorAll('.blog-service > a').forEach((link) => {
-    link.addEventListener('click', (e) => {
-      if (window.matchMedia('(max-width: 1140px)').matches) {
-        const parent = link.parentElement;
-        const submenu = parent.querySelector('.blog-subpanel');
-        if (submenu) {
-          e.preventDefault();
-          parent.classList.toggle('open');
+  /* Four-image article intro slideshow */
+  function articleSlideshows() {
+    document.querySelectorAll("[data-article-slideshow]").forEach((slider) => {
+      const slides = Array.from(slider.querySelectorAll(".article-slide"));
+      const dotsWrap = slider.querySelector(".slide-dots");
+      if (!slides.length) return;
+      let index = 0;
+      slides.forEach((slide, i) => {
+        slide.classList.toggle("active", i === 0);
+        if (dotsWrap) {
+          const dot = document.createElement("button");
+          dot.type = "button"; dot.className = "slide-dot";
+          dot.setAttribute("aria-label", `Show image ${i+1}`);
+          dot.addEventListener("click", () => show(i));
+          dotsWrap.appendChild(dot);
         }
-      }
+      });
+      const dots = dotsWrap ? Array.from(dotsWrap.children) : [];
+      const show = (next) => {
+        index = (next + slides.length) % slides.length;
+        slides.forEach((s,i)=>s.classList.toggle("active",i===index));
+        dots.forEach((d,i)=>d.classList.toggle("active",i===index));
+      };
+      show(0);
+      const prev = slider.querySelector(".slide-prev");
+      const next = slider.querySelector(".slide-next");
+      prev?.addEventListener("click",()=>show(index-1));
+      next?.addEventListener("click",()=>show(index+1));
+      let timer = setInterval(()=>show(index+1), 4500);
+      slider.addEventListener("mouseenter",()=>clearInterval(timer));
+      slider.addEventListener("mouseleave",()=>{ clearInterval(timer); timer=setInterval(()=>show(index+1),4500); });
     });
-  });
+  }
+
+})();
