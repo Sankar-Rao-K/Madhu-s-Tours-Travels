@@ -12,7 +12,6 @@
     stickyHeader();
     mobileNav();
     dropdownTouchToggle();
-    blogMainToggle();
     revealOnScroll();
     counters();
     faqAccordion();
@@ -21,6 +20,7 @@
     contactForm();
     activeNavHighlight();
     articleSlideshows();
+    serviceSlideshows();
   }
 
   /* Sticky header shadow on scroll */
@@ -57,38 +57,15 @@
   /* Mobile blog dropdown toggles: main labels remain normal links; chevrons open sub-articles. */
   function dropdownTouchToggle() {
     document.querySelectorAll(".nav-subtoggle").forEach((btn) => {
-      btn.setAttribute("aria-label", btn.getAttribute("aria-label") || "Show articles");
-      btn.addEventListener("click", function (event) {
-        event.preventDefault();
-        event.stopPropagation();
+      btn.addEventListener("click", function () {
         const item = this.closest(".nav-submenu-item");
         if (!item) return;
         const willOpen = !item.classList.contains("open");
         const parent = this.closest(".blog-nav-item");
         if (parent) parent.classList.add("open");
-        item.parentElement.querySelectorAll(":scope > .nav-submenu-item.open").forEach((el) => {
-          if (el !== item) {
-            el.classList.remove("open");
-            el.querySelector(".nav-subtoggle")?.setAttribute("aria-expanded", "false");
-          }
-        });
+        item.parentElement.querySelectorAll(":scope > .nav-submenu-item.open").forEach((el) => { if (el !== item) el.classList.remove("open"); });
         item.classList.toggle("open", willOpen);
         this.setAttribute("aria-expanded", String(willOpen));
-      });
-    });
-  }
-
-
-  /* Mobile Blog arrow: the Blog text remains a link to the main blog page. */
-  function blogMainToggle() {
-    document.querySelectorAll(".blog-main-toggle").forEach((btn) => {
-      btn.addEventListener("click", function (event) {
-        event.preventDefault();
-        event.stopPropagation();
-        const item = this.closest(".blog-nav-item");
-        if (!item) return;
-        const open = item.classList.toggle("open");
-        this.setAttribute("aria-expanded", String(open));
       });
     });
   }
@@ -242,6 +219,37 @@
       let timer = setInterval(()=>show(index+1), 4500);
       slider.addEventListener("mouseenter",()=>clearInterval(timer));
       slider.addEventListener("mouseleave",()=>{ clearInterval(timer); timer=setInterval(()=>show(index+1),4500); });
+    });
+  }
+
+
+  /* Shared five-image service-page slideshow */
+  function serviceSlideshows() {
+    document.querySelectorAll("[data-service-slideshow]").forEach((slider) => {
+      const slides = Array.from(slider.querySelectorAll(".service-slide"));
+      const dotsWrap = slider.querySelector(".service-slide-dots");
+      const prev = slider.querySelector(".service-slide-arrow.prev");
+      const next = slider.querySelector(".service-slide-arrow.next");
+      if (!slides.length) return;
+      let index = 0, timer;
+      const dots=[];
+      const show = (nextIndex) => {
+        index=(nextIndex+slides.length)%slides.length;
+        slides.forEach((s,i)=>s.classList.toggle("active",i===index));
+        dots.forEach((d,i)=>d.classList.toggle("active",i===index));
+      };
+      if(dotsWrap){slides.forEach((_,i)=>{
+        const dot=document.createElement("button"); dot.type="button"; dot.className="service-slide-dot"; dot.setAttribute("aria-label",`Show image ${i+1}`);
+        dot.addEventListener("click",()=>{show(i);start();}); dotsWrap.appendChild(dot); dots.push(dot);
+      });}
+      const start=()=>{clearInterval(timer); timer=setInterval(()=>show(index+1),4600);};
+      prev?.addEventListener("click",()=>{show(index-1);start();});
+      next?.addEventListener("click",()=>{show(index+1);start();});
+      slider.addEventListener("mouseenter",()=>clearInterval(timer));
+      slider.addEventListener("mouseleave",start);
+      slider.addEventListener("focusin",()=>clearInterval(timer));
+      slider.addEventListener("focusout",e=>{if(!slider.contains(e.relatedTarget))start();});
+      show(0); start();
     });
   }
 
