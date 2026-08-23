@@ -12,6 +12,7 @@
     stickyHeader();
     mobileNav();
     dropdownTouchToggle();
+    blogMainToggle();
     revealOnScroll();
     counters();
     faqAccordion();
@@ -56,15 +57,38 @@
   /* Mobile blog dropdown toggles: main labels remain normal links; chevrons open sub-articles. */
   function dropdownTouchToggle() {
     document.querySelectorAll(".nav-subtoggle").forEach((btn) => {
-      btn.addEventListener("click", function () {
+      btn.setAttribute("aria-label", btn.getAttribute("aria-label") || "Show articles");
+      btn.addEventListener("click", function (event) {
+        event.preventDefault();
+        event.stopPropagation();
         const item = this.closest(".nav-submenu-item");
         if (!item) return;
         const willOpen = !item.classList.contains("open");
         const parent = this.closest(".blog-nav-item");
         if (parent) parent.classList.add("open");
-        item.parentElement.querySelectorAll(":scope > .nav-submenu-item.open").forEach((el) => { if (el !== item) el.classList.remove("open"); });
+        item.parentElement.querySelectorAll(":scope > .nav-submenu-item.open").forEach((el) => {
+          if (el !== item) {
+            el.classList.remove("open");
+            el.querySelector(".nav-subtoggle")?.setAttribute("aria-expanded", "false");
+          }
+        });
         item.classList.toggle("open", willOpen);
         this.setAttribute("aria-expanded", String(willOpen));
+      });
+    });
+  }
+
+
+  /* Mobile Blog arrow: the Blog text remains a link to the main blog page. */
+  function blogMainToggle() {
+    document.querySelectorAll(".blog-main-toggle").forEach((btn) => {
+      btn.addEventListener("click", function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+        const item = this.closest(".blog-nav-item");
+        if (!item) return;
+        const open = item.classList.toggle("open");
+        this.setAttribute("aria-expanded", String(open));
       });
     });
   }

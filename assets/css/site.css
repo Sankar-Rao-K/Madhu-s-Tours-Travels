@@ -573,13 +573,26 @@ table.rate-table td.price{ font-family:var(--font-mono); color:var(--river-deep)
 .related-gallery-section{ background:var(--paper-dim); }
 @media (max-width:768px){ .pkg-image{ height:155px; } .svc-photo{ height:150px; margin:-22px -22px 18px; } .pkg-temple-chips span,.itinerary-preview span{ font-size:.72rem; } }
 
+
+/* Mobile Blog navigation: link opens the main Blog page; arrow opens its categories. */
+.nav-main-row{display:block;}
+.blog-main-toggle{display:none;}
+@media(max-width:1140px){
+  .blog-nav-item > .nav-main-row{display:flex;align-items:center;gap:4px;width:100%;}
+  .blog-nav-item > .nav-main-row > a{flex:1;}
+  .blog-main-toggle{display:flex;align-items:center;justify-content:center;flex:0 0 46px;width:46px;height:46px;border:1px solid rgba(22,35,63,.16);border-radius:12px;background:var(--white);color:var(--river-deep);cursor:pointer;box-shadow:0 2px 8px rgba(16,25,46,.08);}
+  .blog-main-toggle .bi{font-size:1rem;transition:transform .2s ease;}
+  .blog-nav-item.open .blog-main-toggle .bi{transform:rotate(180deg);}
+  .blog-main-toggle:focus-visible{outline:3px solid rgba(212,175,55,.38);outline-offset:2px;}
+}
+
 /* ==========================================================
    Blog mega dropdown + article slideshow shared UI
 ========================================================== */
 @media (min-width:1141px){
   .header-inner{gap:34px;}
   .main-nav{margin-left:auto;}
-  .blog-nav-item::after{content:"";position:absolute;left:-10px;right:-10px;top:100%;height:20px;}
+  .blog-nav-item::after{content:"";position:absolute;left:-16px;right:-16px;top:100%;height:34px;}
   .blog-dropdown-panel{min-width:330px;left:auto;right:0;transform:translateY(6px);padding:10px;overflow:visible;}
   .blog-nav-item:hover .blog-dropdown-panel{transform:translateY(0);}
   .blog-nav-services,.nav-submenu{list-style:none;padding:0;margin:0;}
@@ -587,7 +600,7 @@ table.rate-table td.price{ font-family:var(--font-mono); color:var(--river-deep)
   .nav-parent-row{display:flex;align-items:center;justify-content:space-between;gap:4px;}
   .nav-parent-row>a{flex:1;}
   .nav-subtoggle{display:none;}
-  .nav-submenu-item::after{content:"";position:absolute;right:-18px;top:4px;width:24px;height:calc(100% - 8px);}
+  .nav-submenu-item::after{content:"";position:absolute;right:-34px;top:-2px;width:42px;height:calc(100% + 4px);}
   .nav-submenu{position:absolute;left:calc(100% + 6px);top:-8px;min-width:290px;background:var(--white);border:1px solid var(--line-soft);border-radius:14px;box-shadow:var(--shadow-lg);padding:10px;opacity:0;visibility:hidden;transform:translateX(8px);transition:opacity .15s ease,transform .15s ease,visibility .15s ease;z-index:20;}
   .nav-submenu-item:hover>.nav-submenu,.nav-submenu-item:focus-within>.nav-submenu{opacity:1;visibility:visible;transform:translateX(0);}
   .nav-submenu a{display:flex;align-items:center;gap:8px;padding:10px 12px;border-radius:10px;color:var(--ink);font-weight:600;}
@@ -620,11 +633,11 @@ table.rate-table td.price{ font-family:var(--font-mono); color:var(--river-deep)
   .blog-nav-services{list-style:none;margin:0;padding:0;}
   .nav-parent-row{display:flex;align-items:center;gap:4px;width:100%;}
   .nav-parent-row>a{flex:1;}
-  .nav-subtoggle{display:flex;align-items:center;justify-content:center;flex:0 0 42px;width:42px;height:42px;border:0;border-radius:10px;background:rgba(255,255,255,.7);color:var(--river-deep);}
+  .nav-subtoggle{display:flex;align-items:center;justify-content:center;flex:0 0 46px;width:46px;height:46px;border:1px solid rgba(22,35,63,.16);border-radius:12px;background:var(--white);color:var(--river-deep);cursor:pointer;box-shadow:0 2px 8px rgba(16,25,46,.08);}
   .nav-submenu{display:none;position:static;min-width:0;margin:2px 0 6px 0;padding:4px 0 4px 18px;background:transparent;box-shadow:none;border:0;transform:none;opacity:1;visibility:visible;}
   .nav-submenu-item.open .nav-submenu{display:block;}
   .nav-submenu a{background:#fff;padding:10px 12px;margin:3px 0;border-radius:10px;}
-  .nav-subtoggle[aria-expanded="true"] .bi{transform:rotate(90deg);}
+  .nav-subtoggle[aria-expanded="true"] .bi{transform:rotate(90deg);} .nav-subtoggle .bi{font-size:1.05rem;transition:transform .2s ease;} .nav-subtoggle:focus-visible{outline:3px solid rgba(212,175,55,.38);outline-offset:2px;}
 }
 
 
@@ -641,3 +654,18 @@ table.rate-table td.price{ font-family:var(--font-mono); color:var(--river-deep)
     background: transparent !important;
   }
 }
+
+/* Service detail intro — shared across all six service pages */
+.service-intro{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);gap:54px;align-items:center;}
+.service-slideshow{position:relative;aspect-ratio:1.15/1;border-radius:28px;overflow:hidden;background:#e9edf4;box-shadow:var(--shadow-lg);}
+.service-slideshow .article-slides{height:100%;}
+.service-slideshow .article-slide img{width:100%;height:100%;object-fit:cover;display:block;}
+.service-intro-copy .eyebrow{margin-bottom:12px;}
+.service-intro-copy h2{margin-bottom:18px;}
+.service-intro-copy .lead-text{max-width:760px;}
+.service-feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 14px;margin:22px 0 0;padding:0;list-style:none;}
+.service-feature-grid li{display:flex;align-items:flex-start;gap:9px;padding:11px 13px;border:1px solid var(--line-soft);background:rgba(255,255,255,.78);border-radius:12px;font-weight:700;color:var(--ink);}
+.service-feature-grid i{color:var(--gold-deep);margin-top:2px;}
+.service-top-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px;}
+@media(max-width:991px){.service-intro{grid-template-columns:1fr;gap:28px;} .service-slideshow{aspect-ratio:16/11;}}
+@media(max-width:640px){.service-feature-grid{grid-template-columns:1fr;} .service-slideshow{aspect-ratio:4/3;border-radius:22px;} .service-intro-copy h2{font-size:1.8rem;}}
