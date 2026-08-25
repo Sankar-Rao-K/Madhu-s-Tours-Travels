@@ -726,28 +726,74 @@ table.rate-table td.price{ font-family:var(--font-mono); color:var(--river-deep)
 }
 
 /* ==========================================================
-   Index-only Kashi Yatra announcement marquee
+   Index-only bilingual pilgrimage announcement marquee
 ========================================================== */
 .kashi-announcement{
-  position:relative;z-index:20;overflow:hidden;background:linear-gradient(90deg,#f6cf45,#e8b72f 48%,#f8d65c);
-  color:#0f2142;border-bottom:1px solid rgba(255,255,255,.28);box-shadow:0 4px 16px rgba(22,35,63,.12);
+  position:relative;z-index:20;overflow:hidden;
+  background:linear-gradient(110deg,#f7d85b 0%,#e7b632 46%,#ffd866 100%);
+  color:#102344;border-bottom:1px solid rgba(22,35,63,.12);
+  box-shadow:0 5px 20px rgba(22,35,63,.12);
 }
-.kashi-announcement-inner{display:flex;align-items:center;min-height:52px;white-space:nowrap;overflow:hidden;}
-.kashi-announcement-label{flex:0 0 auto;display:inline-flex;align-items:center;gap:8px;padding:7px 14px;margin-right:12px;border-radius:999px;background:#16233f;color:#fff;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 4px 12px rgba(22,35,63,.16);}
-.kashi-marquee{display:flex;min-width:max-content;animation:kashi-scroll 27s linear infinite;will-change:transform;}
-.kashi-announcement:hover .kashi-marquee,.kashi-announcement:focus-within .kashi-marquee{animation-play-state:paused;}
-.kashi-item{display:inline-flex;align-items:center;gap:12px;padding:0 34px;font-weight:800;font-size:.98rem;}
+.kashi-announcement::before{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.35;
+  background:linear-gradient(115deg,transparent 20%,rgba(255,255,255,.65) 48%,transparent 72%);
+  transform:translateX(-120%);animation:kashi-shimmer 5.5s ease-in-out infinite;
+}
+.kashi-announcement-inner{
+  position:relative;display:flex;align-items:center;min-height:58px;
+  white-space:nowrap;overflow:hidden;gap:12px;
+}
+.kashi-announcement-label{
+  position:relative;z-index:2;flex:0 0 auto;display:inline-flex;align-items:center;gap:8px;
+  padding:8px 13px;border-radius:999px;background:#16233f;color:#fff;
+  font-size:.68rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase;
+  box-shadow:0 5px 14px rgba(22,35,63,.2);
+}
+.kashi-live-dot{width:8px;height:8px;border-radius:50%;background:#f7cf49;box-shadow:0 0 0 0 rgba(247,207,73,.7);animation:kashi-pulse 1.8s infinite;}
+.kashi-marquee{
+  position:relative;z-index:1;display:flex;min-width:max-content;
+  animation:kashi-scroll 25s linear infinite;will-change:transform;
+}
+.kashi-marquee:focus-visible{outline:2px solid #16233f;outline-offset:4px;border-radius:8px;}
+.kashi-announcement:hover .kashi-marquee,
+.kashi-announcement:focus-within .kashi-marquee{animation-play-state:paused;}
+.kashi-item{
+  display:inline-flex;align-items:center;gap:14px;padding:0 34px;
+  color:#102344;text-decoration:none;font-weight:850;font-size:.95rem;
+  transition:transform .2s ease,opacity .2s ease;
+}
+.kashi-item:hover{transform:translateY(-1px);opacity:.9;}
 .kashi-item .te{font-family:"Noto Sans Telugu","Nirmala UI",sans-serif;}
 .kashi-item .en{font-family:var(--font-sans),sans-serif;}
-.kashi-sep{color:#16233f;font-weight:900;}
-@keyframes kashi-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media (max-width:700px){
-  .kashi-announcement-inner{min-height:58px;}
-  .kashi-announcement-label{font-size:.64rem;padding:6px 10px;margin-right:4px;}
-  .kashi-item{font-size:.86rem;padding:0 24px;gap:9px;}
+.kashi-sep{color:#16233f;font-weight:900;font-size:1.05em;}
+.kashi-announcement-cta{
+  position:relative;z-index:2;flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;
+  padding:8px 12px;border:1px solid rgba(22,35,63,.25);border-radius:999px;
+  background:rgba(255,255,255,.24);color:#102344;text-decoration:none;
+  font-size:.72rem;font-weight:900;transition:all .2s ease;
 }
-@media (prefers-reduced-motion:reduce){.kashi-marquee{animation:none;transform:none;}.kashi-item{white-space:normal;}}
-
+.kashi-announcement-cta:hover{background:#16233f;color:#fff;border-color:#16233f;transform:translateY(-1px);}
+@keyframes kashi-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes kashi-shimmer{0%,45%{transform:translateX(-120%)}75%,100%{transform:translateX(120%)}}
+@keyframes kashi-pulse{0%{box-shadow:0 0 0 0 rgba(247,207,73,.7)}70%{box-shadow:0 0 0 8px rgba(247,207,73,0)}100%{box-shadow:0 0 0 0 rgba(247,207,73,0)}}
+@media (max-width:900px){
+  .kashi-announcement-inner{min-height:56px;gap:7px;}
+  .kashi-announcement-label{font-size:.6rem;padding:7px 9px;gap:6px;}
+  .kashi-announcement-label i{display:none;}
+  .kashi-item{font-size:.82rem;padding:0 22px;gap:9px;}
+  .kashi-announcement-cta span{display:none;}
+  .kashi-announcement-cta{padding:8px 10px;}
+}
+@media (max-width:520px){
+  .kashi-announcement-label{letter-spacing:.05em;font-size:.56rem;}
+  .kashi-live-dot{width:7px;height:7px;}
+  .kashi-item{font-size:.77rem;padding:0 17px;}
+}
+@media (prefers-reduced-motion:reduce){
+  .kashi-marquee{animation:none;transform:none;}
+  .kashi-announcement::before,.kashi-live-dot{animation:none;}
+  .kashi-item{white-space:normal;}
+}
 
 /* Final global overrides */
 .main-nav > ul > li.active > a{color:rgba(255,255,255,.78)!important;background:transparent!important;}
