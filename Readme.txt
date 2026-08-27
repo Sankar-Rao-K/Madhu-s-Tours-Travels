@@ -1,6 +1,1 @@
-Thanks for downloading this template!
-
-Template Name: Orbit
-Template URL: https://bootstrapmade.com/orbit-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Madhu's Tours & Travels is a responsive tourism business website developed around real client requirements. I worked on the site's information architecture, shared navigation, service content, galleries, blog hierarchy and responsive behavior across desktop, tablet and mobile layouts. The project taught me how to translate changing client requirements into reusable website components and consistent global design.
