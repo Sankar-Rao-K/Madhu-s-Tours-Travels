@@ -12,6 +12,7 @@
     stickyHeader();
     mobileNav();
     dropdownTouchToggle();
+    blogMobileToggle();
     revealOnScroll();
     counters();
     faqAccordion();
@@ -49,24 +50,42 @@
       btn.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
     });
     if (backdrop) backdrop.addEventListener("click", close);
-    document.querySelectorAll(".main-nav a:not(.has-dropdown > a)").forEach((a) => {
+    document.querySelectorAll(".main-nav a, .mobile-menu-panel a").forEach((a) => {
       a.addEventListener("click", close);
+    });
+    document.querySelectorAll(".mobile-menu-blog-toggle").forEach((toggle) => {
+      toggle.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const blog = toggle.closest(".mobile-menu-blog");
+        if (!blog) return;
+        const open = blog.classList.toggle("open");
+        toggle.setAttribute("aria-expanded", String(open));
+      });
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && document.body.classList.contains("nav-open")) close();
+    });
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 1140 && document.body.classList.contains("nav-open")) close();
     });
   }
 
   
   /* Mobile Blog main toggle: Blog text remains a normal link, while the
      separate arrow opens/closes the Blog service menu. */
-  document.querySelectorAll('.blog-mobile-toggle').forEach((btn) => {
-    btn.addEventListener('click', function (e) {
-      e.preventDefault();
-      e.stopPropagation();
-      const item = this.closest('.blog-nav-item');
-      if (!item) return;
-      const open = item.classList.toggle('open');
-      this.setAttribute('aria-expanded', String(open));
+  function blogMobileToggle() {
+    document.querySelectorAll('.blog-mobile-toggle').forEach((btn) => {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const item = this.closest('.blog-nav-item');
+        if (!item) return;
+        const open = item.classList.toggle('open');
+        this.setAttribute('aria-expanded', String(open));
+      });
     });
-  });
+  }
 
   /* Mobile blog dropdown toggles: main labels remain normal links; chevrons open sub-articles. */
   function dropdownTouchToggle() {

@@ -1,0 +1,83 @@
+[
+    {
+        "id": "car",
+        "label": "Car Rental / Car Booking",
+        "service": "services/car-rental.html",
+        "hub": "blog/car-rentals.html",
+        "icon": "bi-car-front",
+        "img": "assets/img/about/Car.png",
+        "locked": true
+    },
+    {
+        "id": "bus",
+        "label": "Bus Ticket Booking",
+        "service": "services/bus-ticket-booking.html",
+        "hub": "blog/bus-booking.html",
+        "icon": "bi-bus-front",
+        "img": "assets/img/services/rjy-10.jpg",
+        "locked": true
+    },
+    {
+        "id": "train",
+        "label": "Train Ticket Booking",
+        "service": "services/train-ticket-booking.html",
+        "hub": "blog/train-booking.html",
+        "icon": "bi-train-front",
+        "img": "assets/img/services/TT1.jpg",
+        "locked": true
+    },
+    {
+        "id": "flight",
+        "label": "Flight Ticket Booking",
+        "service": "services/flight-ticket-booking.html",
+        "hub": "blog/flight-booking.html",
+        "icon": "bi-airplane",
+        "img": "assets/img/background.png",
+        "locked": true
+    },
+    {
+        "id": "papikondalu",
+        "label": "Papikondalu Tourism / Godavari Boat Trips",
+        "service": "services/papikondalu-maredumilli-tourism.html",
+        "hub": "blog/papikondalu-maredumilli.html",
+        "icon": "bi-water",
+        "img": "assets/img/pk1.jpeg",
+        "locked": true
+    },
+    {
+        "id": "maredumilli",
+        "label": "Maredumilli Tourism",
+        "service": "services/papikondalu-maredumilli-tourism.html",
+        "hub": "blog/papikondalu-maredumilli.html",
+        "icon": "bi-tree",
+        "img": "assets/img/G6.jpeg",
+        "locked": true
+    },
+    {
+        "id": "devotional",
+        "label": "Devotional Yatra Packages",
+        "service": "services/devotional-yatra-package.html",
+        "hub": "blog/devotional-yatra.html",
+        "icon": "bi-flower1",
+        "img": "assets/img/G8.jpeg",
+        "locked": true
+    },
+    {
+        "id": "railway",
+        "label": "Rajahmundry Railway Station / Railway Travel",
+        "service": "services/rajahmundry-railway-station.html",
+        "hub": null,
+        "icon": "bi-geo-alt",
+        "img": "assets/img/services/TT1.jpg",
+        "locked": true
+    },
+    {
+        "id": "general",
+        "label": "General Travel Blog",
+        "service": null,
+        "hub": null,
+        "icon": "bi-journal-text",
+        "img": "assets/img/pk2.jpeg",
+        "locked": true
+    }
+]

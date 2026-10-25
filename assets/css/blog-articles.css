@@ -1,0 +1,15 @@
+/* Styles for admin-published blog articles and article listings. Loaded only on those pages. */
+.blog-card[hidden]{display:none!important}
+.rt-article{max-width:900px;margin:0 auto}
+.rt-article img{max-width:100%;height:auto;border-radius:12px}
+.rt-article figure{margin:24px 0}
+.rt-article figcaption{font-size:.9rem;color:var(--ink-soft,#4A5670);text-align:center;margin-top:8px}
+.rt-article .rt-cover{margin:0 0 28px}
+.rt-article .rt-meta{color:var(--ink-soft,#4A5670);font-size:.95rem;margin-bottom:20px}
+.rt-article blockquote{border-left:4px solid var(--gold,#D4AF37);margin:24px 0;padding:6px 0 6px 20px;color:var(--ink-soft,#4A5670);font-style:italic}
+.rt-article ul,.rt-article ol{margin:0 0 18px 1.2em;padding:0}
+.rt-article li{margin-bottom:6px}
+.rt-article table{width:100%;border-collapse:collapse;margin:24px 0;display:block;overflow-x:auto}
+.rt-article th,.rt-article td{border:1px solid var(--line,rgba(16,25,46,.12));padding:10px 12px;text-align:left}
+.rt-article th{background:var(--leaf-light,#EBEFF6)}
+.rt-article .rt-related{margin-top:36px;padding-top:18px;border-top:1px solid var(--line,rgba(16,25,46,.12))}
